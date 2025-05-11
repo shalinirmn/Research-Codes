@@ -134,7 +134,7 @@ def save_helices(pdb_exp_hel,folder_path):
         with open(file_path, "w") as file:
             file.write(pdb_exp_hel[i])
 
-pdb_folder = r"C:\Users\Snehil\OneDrive\Desktop\newpdb"
+pdb_folder = # path of the directory containing all the pdb structures
 pdb_files = get_pdb_file_paths(pdb_folder)
 create_dir(pdb_folder, 'Helices')
 helix_file_names = []
